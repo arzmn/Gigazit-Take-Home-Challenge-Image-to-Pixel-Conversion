@@ -33,7 +33,7 @@ The output is a list containing the pixel values of the image. This list is also
 python pixelExraction.py
 ```
 
-# For verifying the output - Pixel to image conversion
+# Additional Functionality - Visualizing the extracted pixel information
 
 ### Convert Pixel List to Image
 1. Place your input pixel list file in the specified path.
