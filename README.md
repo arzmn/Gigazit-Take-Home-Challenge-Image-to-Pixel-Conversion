@@ -60,6 +60,8 @@ The script leverages a pre-trained DeepLabV3 model from the `torchvision` librar
 - `matplotlib`: For visualizing the original and segmented images.
 - `numpy`: For array manipulations.
 
+![Output for pre trained Segmentation](https://raw.githubusercontent.com/arzmn/Gigazit-Take-Home-Challenge-Image-to-Pixel-Conversion/main/Segmented%20Image.png)
+
 ## Usage
 ### Prerequisites
 Ensure you have the necessary libraries installed. You can install them using pip:
