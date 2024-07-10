@@ -18,18 +18,26 @@ The output is a list containing the pixel values of the image. This list is also
 1. Place your input image in the specified path.
 2. Run the script to convert the image to a pixel list and save the output to a text file.
 
-### Convert Pixel List to Image
-1. Place your input pixel list file in the specified path.
-2. Run the script to convert the pixel list back to an image and save the output image.
+   ![Test Image](https://raw.githubusercontent.com/arzmn/Gigazit-Take-Home-Challenge-Image-to-Pixel-Conversion/main/testImage.png)
+   ![Pixel List](https://ibb.co/HhpDdrp)
+
+
 
 ## Example
 ### Convert Image to Pixel List
 ```bash
-python image_to_pixel.py
+python pixelExraction.py
 ```
+
 # For verifying the output - Pixel to image conversion
 
+### Convert Pixel List to Image
+1. Place your input pixel list file in the specified path.
+2. Run the script to convert the pixel list back to an image and save the output image.
+
 ```bash
-python pixel_to_image.py
+python pixelToImage.py
 ```
 This will save the pixel data to pixel_output.txt and the reconstructed image to reconstructed_image.jpg.
+
+
