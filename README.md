@@ -19,7 +19,11 @@ The output is a list containing the pixel values of the image. This list is also
 2. Run the script to convert the image to a pixel list and save the output to a text file.
 
    ![Test Image](https://raw.githubusercontent.com/arzmn/Gigazit-Take-Home-Challenge-Image-to-Pixel-Conversion/main/testImage.png)
-   ![Pixel List](https://ibb.co/HhpDdrp)
+   ⏬
+   ⏬
+   ⏬
+   ⏬
+   ![Pixel List](https://raw.githubusercontent.com/arzmn/Gigazit-Take-Home-Challenge-Image-to-Pixel-Conversion/main/Pixel%20List%20Screenshot.png)
 
 
 
