@@ -44,4 +44,24 @@ python pixelToImage.py
 ```
 This will save the pixel data to pixel_output.txt and the reconstructed image to reconstructed_image.jpg.
 
+# Image Segmentation Using Pre-trained DeepLabV3 Model
 
+## Overview
+This project demonstrates how to use a pre-trained DeepLabV3 model for semantic segmentation of an image. The script loads an image, applies the DeepLabV3 model to segment the image, and visualizes the segmentation output.
+
+## Approach
+### Pre-trained Segmentation Model
+The script leverages a pre-trained DeepLabV3 model from the `torchvision` library. This model is designed for semantic segmentation and is pre-trained on the COCO dataset. The model segments the image into different categories, identifying and grouping pixels with similar characteristics.
+
+## Libraries Used
+- `torch`: For loading and using the pre-trained model.
+- `torchvision`: For accessing the pre-trained DeepLabV3 model and image transformations.
+- `PIL` (Pillow): For image loading and processing.
+- `matplotlib`: For visualizing the original and segmented images.
+- `numpy`: For array manipulations.
+
+## Usage
+### Prerequisites
+Ensure you have the necessary libraries installed. You can install them using pip:
+```bash
+pip install torch torchvision pillow matplotlib numpy
