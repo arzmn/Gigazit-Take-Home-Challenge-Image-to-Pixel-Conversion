@@ -1,7 +1,7 @@
 # Gigazit-Take-Home-Challenge-Image-to-Pixel-Conversion
 A working Python script that converts images into a representation of their constituent pixels.
 
-# Image to Pixel Conversion
+# 1. Direct Pixel Extraction
 
 ## Approach
 This script uses the direct pixel extraction approach to convert an image into its pixel representation. The image is loaded using the Pillow library and converted to a grayscale image. The pixel values are extracted and stored in a list. It also outputs a .txt file with pixel information.
@@ -44,7 +44,7 @@ python pixelToImage.py
 ```
 This will save the pixel data to pixel_output.txt and the reconstructed image to reconstructed_image.jpg.
 
-# Image Segmentation Using Pre-trained DeepLabV3 Model
+# 2. Image Segmentation Using Pre-trained DeepLabV3 Model
 
 ## Overview
 This project demonstrates how to use a pre-trained DeepLabV3 model for semantic segmentation of an image. The script loads an image, applies the DeepLabV3 model to segment the image, and visualizes the segmentation output.
